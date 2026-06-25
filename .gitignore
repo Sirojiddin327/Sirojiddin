@@ -1,0 +1,43 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Django stuff
+*.log
+db.sqlite3
+media/
+staticfiles/
+
+# Local settings
+.env
+.env.*
+local_settings.py
+
+# PyCharm / VSCode / IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Migrations (agar xohlasangiz commit qilmaslik uchun)
+# migrations/
+# !migrations/__init__.py
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Coverage / testing
+htmlcov/
+.coverage
+.pytest_cache/
+
+# Static build
+static_collected/
